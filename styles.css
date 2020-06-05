@@ -1,0 +1,404 @@
+body
+{
+  background-color: white !important;
+  text-align: center;
+}
+
+html,body
+{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+.navbar
+{
+  height: 50px;
+}
+
+.navbar-nav > li
+{
+  padding-left: 35px;
+  padding-right: 35px;
+}
+
+.nav-link
+{
+  color: white !important;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.nav-link:hover
+{
+  color: #fbd341 !important;
+  transform: scale(1.1);
+}
+
+#home-container
+{
+  background: url("hogwarts-img.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat !important;
+  height: 100vh;
+}
+
+#name-heading
+{
+  color: white;
+  font-family: 'Sacramento', cursive;
+  font-weight: bold;
+  font-size: 90px;
+  position: absolute;
+  left: 510px;
+  top: 200px;
+}
+
+@media (max-width: 1000px)
+{
+  #name-heading
+  {
+    font-size: 50px;
+    position: absolute;
+    left: 30px;
+    top: 140px;
+  }
+}
+
+#name-para
+{
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+  position: absolute;
+  right: 180px;
+  top: 280px;
+}
+
+@media (max-width: 1000px)
+{
+  #name-para
+  {
+    font-size: 15px;
+    position: absolute;
+    font-weight: bolder;
+    left: 120px;
+    top: 200px;
+  }
+}
+
+#about-container
+{
+  height: 100vh;
+}
+
+#profile-img
+{
+  height: 220px;
+  width: 220px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+
+#profile-img:hover
+{
+  transform: scale(1.02);
+}
+
+@media (max-width: 1000px)
+{
+  #profile-img
+  {
+    height: 150px;
+    width: 150px;
+  }
+}
+
+.about-para
+{
+  text-align: center;
+  margin-top: 30px;
+  font-size: 17px;
+  font-weight: bold;
+  line-height: 0.1 !important;
+  font-family: 'Questrial', sans-serif;
+  color: #d92027;
+}
+
+.chester
+{
+  text-align: center;
+  line-height: 0.5;
+}
+
+.about-para-one
+{
+  text-align: center;
+  margin-top: 20px;
+  font-size: 18px;
+  line-height: 1.8;
+  font-family: 'Questrial', sans-serif;
+  color:black;
+}
+
+@media (max-width: 1000px)
+{
+  .about-para-one
+  {
+    font-size: 15px;
+  }
+}
+
+#skills-container
+{
+  height: 100vh;
+}
+
+.wrapper {
+    text-align:center;
+    width: 100%;
+}
+
+.skills-img
+{
+  height: 100px;
+  width: 100px;
+  margin: 5px 40px 5px 40px;
+  display: inline-block;
+}
+
+.skills-img:hover
+{
+  transform: scale(1.05);
+}
+
+@media (max-width: 1000px)
+{
+  .skills-img
+  {
+    height: 70px;
+    width: 70px;
+  }
+}
+
+.rule
+{
+  background-color: #dae1e7;
+  width: 80%;
+  text-align: center;
+}
+
+.last
+{
+  width: 100%;
+}
+
+@media (max-width: 1000px)
+{
+  .last
+  {
+    margin-top: 90px;
+  }
+}
+
+.heading
+{
+  font-family: 'Josefin Sans', sans-serif;
+  color: #d92027;
+  font-size: 33px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+
+@media (max-width: 1000px)
+{
+  .heading
+  {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 1000px)
+{
+  .one
+  {
+    margin-top: 100px;
+  }
+}
+
+.heading:hover
+{
+  color: #ff9234;
+}
+
+#work-container 
+{
+  height: 100vh;
+}
+
+.heading-work
+{
+  font-family: 'Josefin Sans', sans-serif;
+  color: #d92027;
+  font-size: 33px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+
+@media (max-width: 1000px)
+{
+  .heading-work
+  {
+    font-size: 25px;
+    margin-top: 140px;
+  }
+}
+
+.heading-work:hover
+{
+  color: #ff9234;
+}
+
+.card 
+{
+  margin: 0 auto; /* Added */
+  float: none; /* Added */
+  margin-bottom: 10px; /* Added */
+}
+
+.card:hover
+{
+  transform: scale(1.02);
+}
+
+/* Angela Yu's website link */
+.work-anchor
+{
+ text-decoration: none;
+ color: #d92027;
+}
+
+.work-anchor:hover
+{
+  color: #d92027;
+  font-weight: 650;
+  text-decoration: none;
+}
+
+#chester-container
+{
+  height: 100vh;
+  background: url(chesterbe1.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+@media (max-width: 1000px)
+{
+  #chester-container
+  {
+    display: none;
+  }
+}
+
+#contact-container
+{
+  text-align: center;
+  height: 90vh;
+}
+
+.labels
+{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  line-height: 2;
+  color: #000839;
+}
+
+.input-labels
+{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  color: black;
+}
+
+input[type=submit] 
+{
+  background-color: #1f4068;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+input[type=submit]:hover 
+{
+  background-color: #162447;
+}
+
+input[type=reset] 
+{
+  background-color: #1f4068;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+input[type=reset]:hover 
+{
+  background-color: #162447;
+}
+
+.footer 
+{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 48px;
+  background-color: #162447;
+}
+
+.contact-img
+{
+  height: 30px;
+  width: 30px;
+  margin-top: 3px;
+  margin-left: 25px;
+}
+
+.contact-img:hover
+{
+  transform: scale(1.03);
+}
+
+.copyright
+{
+  font-size: 10px;
+  color: white;
+  margin-top: 2px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
